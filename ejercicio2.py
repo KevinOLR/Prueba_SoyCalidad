@@ -1,3 +1,5 @@
+n=int(input("Ingrese un número natural para el valor de n: "))
+
 def pares_naturales(n):
     if n < 1 or n >= 10**6:
         return "n debe ser un número natural menor a 10^6."
@@ -9,4 +11,4 @@ def pares_naturales(n):
             pares.append((a, b))
     return pares
 
-print(pares_naturales(10**2))
+print(pares_naturales(n))
